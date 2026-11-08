@@ -462,25 +462,11 @@ file & lines & content\\
 \label{tab:files}
 \end{table}
 
-\section{Remarks}
-
-\emph{An earlier version.} The first version of the argument used the same reduction, a slightly
-different decomposition and two certificates in Python with Lipschitz estimates between the nodes
-of grids of $1.1$ and $1.6$ million cells. The formal version replaces the Lipschitz estimates by the
-exact polynomial bounds of Section~\ref{sec:cert}. In the complex case this reduces $1.6$ million cells
-to about $19\,400$ leaves and lets the Lean kernel check the certificates; the Python certificates are
-not part of the proof.
-
-\emph{Open questions.} We do not know a proof without computer search. In the planar case the
-corresponding problem for pentagons was solved by algebra \cite{Pentagon}. It would be interesting to
-know whether Theorem~\ref{thm:sep} has a conceptual proof, and whether the answer changes in higher
-dimensions, as asked in the comments to \cite{Bogdanov}.
-
 \section*{Use of AI tools}
 
 The author posed the problem, directed the work and checked the results. The mathematical argument
-(the reduction of Section~\ref{sec:red}, the decomposition of Section~\ref{sec:sep} and the earlier Python
-certificates) was developed by OpenAI Codex, and the Lean formalization, including the
+(the reduction of Section~\ref{sec:red} and the decomposition of Section~\ref{sec:sep}) was developed
+by OpenAI Codex, and the Lean formalization, including the
 kernel-checkable certificates, their generator and the final form of the decomposition, was developed by
 Anthropic Claude, both under the direction of the author; the text of this paper was drafted with
 Anthropic Claude. The author takes full responsibility for the content. The correctness of
