@@ -1,5 +1,7 @@
 # No regular icosahedron has a rational point on every face
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24059256.svg)](https://doi.org/10.5281/zenodo.24059256)
+
 **Theorem.** For every regular icosahedron in $\mathbb R^3$ (any position, size and orientation,
 mirror images included) at least one of its twenty closed triangular faces contains no point with
 rational coordinates.
@@ -106,7 +108,12 @@ the definitions in `Defs.lean`.
 ## Citation
 
 Mikhail Levit, *No regular icosahedron has a rational point on every face: a proof checked in
-Lean*, 2026. <https://github.com/MikhailLevit1987/icosahedron-rational-faces>
+Lean*, 2026. Zenodo, [doi:10.5281/zenodo.24059256](https://doi.org/10.5281/zenodo.24059256) (all
+versions, resolves to the latest one).
+
+| Version | DOI |
+|---|---|
+| 1.0 | [10.5281/zenodo.24059257](https://doi.org/10.5281/zenodo.24059257) |
 
 ## License
 
