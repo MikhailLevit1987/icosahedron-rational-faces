@@ -1,0 +1,35 @@
+{
+    "title": "No regular icosahedron has a rational point on every face: a proof checked in Lean",
+    "description": "<p>A proof that no regular icosahedron in R<sup>3</sup> has a point with rational coordinates on each of its twenty closed faces, answering a question of I. Bogdanov on MathOverflow (question 452847). The proof reduces the problem, by a field automorphism of C sending &radic;5 to &minus;&radic;5, to a separation statement for complex orthogonal matrices, which is proved by a computer-assisted case analysis with exact polynomial bounds over Z[&phi;]. The repository contains the paper and a complete formal proof in Lean 4 / Mathlib; the 48 certificates are checked by the Lean kernel (decide +kernel), and the main theorem depends only on the standard axioms.</p><p>The mathematical argument was developed by OpenAI Codex and the Lean formalization by Anthropic Claude, under the direction of the author.</p><p>Code: Apache License 2.0. Paper (directory <code>paper/</code>): CC BY 4.0.</p>",
+    "creators": [
+        {
+            "name": "Levit, Mikhail"
+        }
+    ],
+    "upload_type": "software",
+    "access_right": "open",
+    "license": "apache-2.0",
+    "language": "eng",
+    "keywords": [
+        "regular icosahedron",
+        "rational points",
+        "Platonic solids",
+        "complex orthogonal group",
+        "computer-assisted proof",
+        "Lean 4",
+        "Mathlib",
+        "formal proof"
+    ],
+    "related_identifiers": [
+        {
+            "identifier": "https://github.com/MikhailLevit1987/icosahedron-rational-faces",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+        },
+        {
+            "identifier": "https://mathoverflow.net/questions/452847",
+            "relation": "references",
+            "scheme": "url"
+        }
+    ]
+}
