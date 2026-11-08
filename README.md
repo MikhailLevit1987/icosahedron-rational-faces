@@ -114,6 +114,7 @@ versions, resolves to the latest one).
 | Version | DOI |
 |---|---|
 | 1.0 | [10.5281/zenodo.24059257](https://doi.org/10.5281/zenodo.24059257) |
+| 1.1 | [10.5281/zenodo.24059304](https://doi.org/10.5281/zenodo.24059304) |
 
 ## License
 
